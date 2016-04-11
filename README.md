@@ -1,11 +1,16 @@
 # Wapuu RDF Converter
 Create Wapuu RDF(JSON-LD) scripts using Wapuus JSON API.
 
-#How to use
+#How to convert
 ```
 $ git clone git@github.com:hideokamoto/wapuu-rdf.git
 $ cd wapuu-rdf
 $ php converter.php
+```
+
+#How to GET RDF
+```
+$ curl https://raw.githubusercontent.com/hideokamoto/wapuu-rdf/master/wapuu.jsonld
 ```
 
 #Schemes
